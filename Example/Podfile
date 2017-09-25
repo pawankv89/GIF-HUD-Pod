@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PKGIFHUD_Example' do
+  pod 'PKGIFHUD', :path => '../'
+
+  target 'PKGIFHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
