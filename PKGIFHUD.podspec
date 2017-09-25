@@ -30,9 +30,9 @@ Progress hud for displaying only animated gif images.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'PKGIFHUD/Classes/**/*{h,m}'
-s.public_header_files = 'PKGIFHUD/**/*.h'
-  
+  s.source_files = 'PKGIFHUD/Classes/**/*.{h,m}'
+  s.public_header_files = 'PKGIFHUD/**/*.h'
+
   # s.resource_bundles = {
   #   'PKGIFHUD' => ['PKGIFHUD/Assets/*.png']
   # }
