@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PKGIFHUD'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of PKGIFHUD.'
+  s.version          = '1.0.0'
+  s.summary          = 'PKGIFHUD for displaying only animated gif images.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Progress hud for displaying only animated gif images.
                        DESC
 
-  s.homepage         = 'https://github.com/pawankv89@gmail.com/PKGIFHUD'
+  s.homepage         = 'https://github.com/pawankv89/PKGIFHUD'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'pawankv89@gmail.com' => 'pawankv89@gmail.com' }
-  s.source           = { :git => 'https://github.com/pawankv89@gmail.com/PKGIFHUD.git', :tag => s.version.to_s }
+  s.author           = { 'pawankv89' => 'pawankv89@gmail.com' }
+  s.source           = { :git => 'https://github.com/pawankv89/PKGIFHUD.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PKGIFHUD/Classes/**/*'
+s.source_files = 'PKGIFHUD/Classes/**/*{h,m}'
+s.public_header_files = 'PKGIFHUD/**/*.h'
   
   # s.resource_bundles = {
   #   'PKGIFHUD' => ['PKGIFHUD/Assets/*.png']

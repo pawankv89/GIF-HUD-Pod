@@ -1,0 +1,6 @@
+framework module Pods_PKGIFHUD_Tests {
+  umbrella header "Pods-PKGIFHUD_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

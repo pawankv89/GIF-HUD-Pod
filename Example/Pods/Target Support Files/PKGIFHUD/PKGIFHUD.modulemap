@@ -1,0 +1,6 @@
+framework module PKGIFHUD {
+  umbrella header "PKGIFHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

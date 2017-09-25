@@ -7,6 +7,7 @@
 //
 
 #import "PKViewController.h"
+#import "PKGIFHUD.h"
 
 @interface PKViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)show:(id)sender{
+    
+   NSString *file = @"gif4.gif";
+   [PKGIFHUD setGifWithImageName:file];
+   [PKGIFHUD  showWithOverlay];
+
+}
+-(IBAction)hide:(id)sender{
+    [PKGIFHUD  dismiss];
+}
 @end

@@ -1,0 +1,22 @@
+{
+  "name": "PKGIFHUD",
+  "version": "0.1.0",
+  "summary": "A short description of PKGIFHUD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pawankv89@gmail.com/PKGIFHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pawankv89@gmail.com": "pawankv89@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pawankv89@gmail.com/PKGIFHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PKGIFHUD/Classes/**/*"
+}

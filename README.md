@@ -22,7 +22,7 @@ pod 'PKGIFHUD'
 
 ## Author
 
-pawankv89@gmail.com, pawankv89@gmail.com
+Pawan Kumar Sharma, pawankv89@gmail.com
 
 ## License
 
