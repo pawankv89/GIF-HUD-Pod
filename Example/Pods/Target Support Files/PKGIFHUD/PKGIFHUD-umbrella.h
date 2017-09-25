@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PKGIFHUD.h"
 
 FOUNDATION_EXPORT double PKGIFHUDVersionNumber;
 FOUNDATION_EXPORT const unsigned char PKGIFHUDVersionString[];

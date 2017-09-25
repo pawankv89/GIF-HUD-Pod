@@ -7,7 +7,7 @@
 //
 
 #import "PKViewController.h"
-#import "PKGIFHUD.h"
+#import <PKGIFHUD/PKGIFHUD.h>
 
 @interface PKViewController ()
 

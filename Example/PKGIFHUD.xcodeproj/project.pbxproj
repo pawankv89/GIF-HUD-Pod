@@ -25,7 +25,6 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B4F7C2DA1260A3E6DD8EFD1D /* Pods_PKGIFHUD_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAAAD1F690955A26645E820 /* Pods_PKGIFHUD_Tests.framework */; };
 		D49FF9F01F797A2600D51AD5 /* gif4.gif in Resources */ = {isa = PBXBuildFile; fileRef = D49FF9EF1F797A1C00D51AD5 /* gif4.gif */; };
-		D4D6589E1F793BE700A4E6BF /* PKGIFHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D6589D1F793BE700A4E6BF /* PKGIFHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +67,6 @@
 		7AC5A1D80CDDC53BC6A92370 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D49FF9EF1F797A1C00D51AD5 /* gif4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif4.gif; sourceTree = "<group>"; };
-		D4D6589C1F793BE700A4E6BF /* PKGIFHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKGIFHUD.h; sourceTree = "<group>"; };
-		D4D6589D1F793BE700A4E6BF /* PKGIFHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKGIFHUD.m; sourceTree = "<group>"; };
 		D5FE0316395ADC6B9BC731B1 /* Pods-PKGIFHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKGIFHUD_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKGIFHUD_Tests/Pods-PKGIFHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DFAAAD1F690955A26645E820 /* Pods_PKGIFHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKGIFHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -138,8 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				D49FF9EF1F797A1C00D51AD5 /* gif4.gif */,
-				D4D6589C1F793BE700A4E6BF /* PKGIFHUD.h */,
-				D4D6589D1F793BE700A4E6BF /* PKGIFHUD.m */,
 				6003F59C195388D20070C39A /* PKAppDelegate.h */,
 				6003F59D195388D20070C39A /* PKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -414,7 +409,6 @@
 			files = (
 				6003F59E195388D20070C39A /* PKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PKViewController.m in Sources */,
-				D4D6589E1F793BE700A4E6BF /* PKGIFHUD.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
