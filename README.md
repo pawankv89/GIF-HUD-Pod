@@ -1,4 +1,4 @@
-# PKGIFHUD
+# GIF HUD
 
 [![CI Status](http://img.shields.io/travis/pawankv89@gmail.com/PKGIFHUD.svg?style=flat)](https://travis-ci.org/pawankv89@gmail.com/PKGIFHUD)
 [![Version](https://img.shields.io/cocoapods/v/PKGIFHUD.svg?style=flat)](http://cocoapods.org/pods/PKGIFHUD)
